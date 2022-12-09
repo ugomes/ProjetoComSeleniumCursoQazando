@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce02b815-f335-4abb-a184-8657257b2624" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DescontoStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DescontoStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QazandoSelenium Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="steps.DescontoStep" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DescontoStep.acessarSiteQazand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QazandoSelenium Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="steps.DescontoStep" />
+      <option name="METHOD_NAME" value="acessarSiteQazand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QazandoSelenium Test" />
       <extension name="coverage">
@@ -94,6 +121,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="JUnit.DescontoStep.acessarSiteQazand" />
+        <item itemvalue="JUnit.DescontoStep" />
         <item itemvalue="Cucumber Java.Scenario: Visualizar código de desconto" />
       </list>
     </recent_temporary>
@@ -128,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669151739170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1669917782195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669917782195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

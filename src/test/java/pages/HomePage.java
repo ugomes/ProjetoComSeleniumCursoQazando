@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
     WebDriver driver;
+    String url = "https://www.qazando.com.br/curso.html";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -14,7 +15,7 @@ public class HomePage {
     }
 
     public void acessarAplicacao(){
-        driver.get("https://www.qazando.com.br/curso.html");
+        driver.get(url);
         driver.manage().window().maximize();
         Assert.assertTrue("Não acessou a aplicação", driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
