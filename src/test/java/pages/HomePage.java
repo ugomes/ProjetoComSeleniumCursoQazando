@@ -4,8 +4,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import support.Utils;
 
-public class HomePage {
+public class HomePage extends Utils {
     WebDriver driver;
     String url = "https://www.qazando.com.br/curso.html";
 
@@ -16,6 +17,7 @@ public class HomePage {
 
     public void acessarAplicacao(){
         driver.get(url);
+        esperarElementoEstarPresente(By.id("btn-ver-cursos"),10);
         driver.manage().window().maximize();
         Assert.assertTrue("Não acessou a aplicação", driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
