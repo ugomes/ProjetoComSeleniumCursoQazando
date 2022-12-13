@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import support.Utils;
+import org.junit.jupiter.api.Test;
 
 public class HomePage extends Utils {
     WebDriver driver;

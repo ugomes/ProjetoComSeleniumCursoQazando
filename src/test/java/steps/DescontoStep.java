@@ -2,13 +2,8 @@ package steps;
 
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.pt.E;
-import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import pages.HomePage;
 import runner.RunCucumberTest;
 
@@ -33,7 +28,7 @@ public class DescontoStep extends RunCucumberTest {
     }
 
 
-    @Então("^eu vejo o código de desconto$")
+    @Entao("^eu vejo o código de desconto$")
 
     public void euVejoOCodigoDeDesconto() {
         homePage.euVejoOCodigoDeDesconto();
