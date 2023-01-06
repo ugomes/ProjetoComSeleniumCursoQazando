@@ -2,8 +2,10 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,14 +24,10 @@ public class RunCucumberTest {
    @BeforeClass
     public static void start(){
        driver = new ChromeDriver();
-
-
     }
 
    @AfterClass
     public static void stop(){
-       driver.close();
-
-
+       driver.quit();
     }
 }

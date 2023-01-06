@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce02b815-f335-4abb-a184-8657257b2624" name="Changes" comment="Adicionando Waiit">
+    <list default="true" id="ce02b815-f335-4abb-a184-8657257b2624" name="Changes" comment="Adicionando Relatórios">
+      <change afterPath="$PROJECT_DIR$/Drivers/chromedriver_107/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DescontoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DescontoStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/support/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/support/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2HuwHMcE6VJofJbFRbw0i5zR1U8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,13 +57,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/steps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Uelton\Cursos_QAzando\Projetos\QazandoSelenium Test" />
+      <recent name="D:\Uelton\Cursos_QAzando\Projetos\QazandoSelenium Test\Drivers\chromedriver_108" />
+      <recent name="D:\Uelton\Cursos_QAzando\Projetos\QazandoSelenium Test\Drivers\chromedriver_107" />
       <recent name="C:\Users\Uelton Gomes\Desktop\QazandoSelenium Test\src\test\java\runner" />
       <recent name="C:\Users\Uelton Gomes\Desktop\QazandoSelenium Test\src\test" />
-      <recent name="C:\Users\Wellington Gomes\Desktop\QazandoSelenium Test" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunCucumberTest">
@@ -195,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670879356181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adicionando Relatórios">
+      <created>1670906779352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670906779352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +239,7 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Page Object" />
     <MESSAGE value="Adicionando Waiit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Waiit" />
+    <MESSAGE value="Adicionando Relatórios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Relatórios" />
   </component>
 </project>
